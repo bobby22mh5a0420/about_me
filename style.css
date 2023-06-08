@@ -3,16 +3,18 @@
     background-color: rgba(245,217,206,255);
     height:100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction:column;
     justify-self: center;
 }
 
 .footer{
     background-color: white;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
+    flex-direction: column;
     justify-self: center;
 }
 
@@ -54,4 +56,5 @@
 }
 img{
     border-radius: 250px 200px;
+    align-items: center;
 }
