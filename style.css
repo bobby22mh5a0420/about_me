@@ -1,12 +1,15 @@
 
+
 .container{
     background-color: rgba(245,217,206,255);
-    height:100vh;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
     justify-self: center;
+    flex-wrap: nowrap;
+    text-align: left;
 }
 
 .footer{
@@ -16,6 +19,11 @@
     align-items: center;
     flex-direction: column;
     justify-self: center;
+}
+
+.crop{
+    display: flex;
+    justify-content:center;
 }
 
 .right{
@@ -47,6 +55,8 @@
     font: small-caps bold ;
     font-weight: lighter;
     font-size:larger;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .para3{
@@ -55,6 +65,8 @@
     font-weight: bolder;
 }
 img{
+    display: flex;
     border-radius: 250px 200px;
     align-items: center;
+    justify-content: center;
 }
