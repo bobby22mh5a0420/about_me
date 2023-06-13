@@ -6,25 +6,59 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .btn-primary{
+        background-color: rgba(245,217,206,255);
+        color:#795ad1;
+        font-size: large;
+        font: small-caps bold ;
+      }
+      .btn-primary:hover{
+        background-color:#795ad1;
+        color:whitesmoke;
+        font-size: large;
+        font: small-caps bold ;
+      }
+      .btn-default{
+        background-color: rgb(255, 196, 35);
+        color:black;
+        font-size: x-large;
+        font: small-caps bold ;
+        border:0px;
+        margin:5px;
+      }
+      .btn-default:hover{
+        background-color:black;
+        color:whitesmoke;
+        font-size:x-large;
+        font: small-caps bold ;
+        border:0px;
+        margin:5px;
+      }
+    </style>
 </head>
 <body>
     <div class="container">
       <div class="left">
-          <h1 class="para" align="center">Hello, World.!!! </h1>
-          <h2 class="para1" outline effect align="center">I am Bobby..</h2>
+          <h1 class="para">Hello, World.!!! </h1>
+          <h2 class="para1" outline effect>I am Bobby..</h2>
           <h4 class="para2">A web developer,program solver and hunger to learn new technologies,passionate about building first-class web applications.
             Developed a voting application that works on Mern stack.
           </h4>
-          <h3 class="crop">
-            <img src="com (2).png" width="350" align="center">
-          </h3>
-        </div>
+          <button type="button" class="btn btn-primary">view profile</button>
+      </div>
+
+      <div>
+        <img src="com (2).png" align="center">
+      </div>
+
     </div>
    
 </body>
 <body1>
     <div class="footer">
-        <img src="22MH5A0420.png" align="right"/>
+        <div>
+        <img style=padding:100px src="22MH5A0420.png" align="center"/></div>
         <div class="right">
             <h1>About me.</h1>
             <h2 class="para3">Enthusiast - Coder - Web developer</h2>
@@ -35,4 +69,41 @@
        
     </div>
 </body1>
+<body2>
+  <div class="end">
+    <div align="center" style="color: aliceblue; font-size: 23px; margin:15px" ><h1>Projects.</h1></div>
+    <div class="end2">
+      <div style="margin: 15px;" class="end1">
+        <h1>Voting app</h1>
+        <p>AMERN stock application that is designed for cating the votes online, without the mentoring of other human Initially, terms and conditions page will open,
+           in which the user supposes to check the input box Later on the scanning page renders which takes a barcode present on the ID card and can cast their vote. This
+            has react as frontend, Express je as the server side framework, Node runtime environment and Mysql as the Database
+        </p>
+        <div class="button">
+          <button type="button" class="btn btn-default">code /></button>
+          <button type="button" class="btn btn-default">website</button>
+        </div>
+      </div>
+      <div style="margin: 15px;" class="end1">
+        <h1>Speed Type Test</h1>
+        <p>"A Javascript App using REST API concept. This website is used to test the speed of the user in terms of typing. Initially, A sentence is fetched
+           from the Database using GET method and displayed to the user, the timer starts as soon as the sentence is rendered on to the screen.After typing submit 
+           button is pressed. At the end, it shows the time taken and status of the typed sentence.Vanilla JS is used here, with the Fetch method for API handling."</p>
+          <div class="button">
+            <button type="button" class="btn btn-default">code /></button>
+            <button type="button" class="btn btn-default">website</button>
+          </div>
+      </div>
+      <div style="margin: 10px;" class="end1">
+        <h1 style="font-size: 31px;">Appointments App.</h1>
+        <p>"A REACT app that is used to handle the important appointments of the users, such that the meeting is held ontime. Initially, an input field and datetime fields 
+          are to be filled by the user and by clicking on the Add button, the corresponding appointment is been added in the list. React state concept is been used with filter and mapping functionality for this app."</p>
+          <div class="button">
+            <button type="button" class="btn btn-default">code /></button>
+            <button type="button" class="btn btn-default">website</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</body2>
 </html>
